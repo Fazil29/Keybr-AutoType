@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import pyautogui
-Webdriver = webdriver.Chrome(r"C:\Users\Fazil\Automation Drivers\chromedriver.exe")
+Webdriver = webdriver.Chrome(r"C:\Users\{User_Name}\Automation Drivers\chromedriver.exe")
 Webdriver.maximize_window()
 Webdriver.get("https://www.keybr.com/#")
 pyautogui.click(1245,340)
